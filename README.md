@@ -1,3 +1,7 @@
+Similar to the [Official Composer image](https://hub.docker.com/_/composer), but with the PHP `gd` extension installed.
+
+[DockerHub page](https://hub.docker.com/r/gotoandplay/composer-gd)
+
 To build the image:
 
 * `cd 2.0.13-php7.4`

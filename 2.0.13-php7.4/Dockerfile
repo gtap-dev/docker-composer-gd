@@ -4,6 +4,8 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV COMPOSER_HOME /tmp
 
 RUN apk add --no-cache libpng-dev libzip-dev zlib-dev
+
+# The official composer image also installs the zip extension
 RUN docker-php-ext-install gd zip
 
 # Version 2.0.13
