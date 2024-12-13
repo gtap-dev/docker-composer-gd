@@ -1,9 +1,3 @@
-As Docker is sunsetting Free Team organizations, this image will no longer be available after April 14, 2023.
-
-There are currently no plans for migrating to a different registry.
-
-----
-
 Similar to the [Official Composer image](https://hub.docker.com/_/composer), but with the PHP `gd` extension installed.
 
 [DockerHub page](https://hub.docker.com/r/gotoandplay/composer-gd)
